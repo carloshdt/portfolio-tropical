@@ -1,0 +1,621 @@
+/*----------------FONTS----------------*/
+
+@font-face {
+    font-family: lobster;
+    src: url(../webfonts/Lobster_1.3.otf);
+}
+@font-face {
+    font-family: mont-semi;
+    src: url(../webfonts/Montserrat-SemiBold.otf);
+}
+@font-face {
+    font-family: mont-extra;
+    src: url(../webfonts/Montserrat-ExtraBold.otf);
+}
+@font-face {
+    font-family: mont-med;
+    src: url(../webfonts/Montserrat-Medium.otf);
+}
+@font-face {
+    font-family: mont-reg;
+    src: url(../webfonts/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: pop-reg;
+    src: url(../webfonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: pop-bold;
+    src: url(../webfonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: pop-light;
+    src: url(../webfonts/Poppins-Light.ttf);
+}
+
+
+
+/*----------------FORMATAÇÕES----------------*/
+
+body{
+  max-width: 1366px;    
+  background-position: center;
+  margin: 0 auto;
+}
+
+a:hover{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior:smooth
+}
+
+/*color change arrow carousel*/
+.carousel-control-prev-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232F9977' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232F9977' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+
+}
+
+
+/* ----------------ESTILIZANDO O TOPO----------------*/
+
+
+.masterhead { 
+  background-image: url('../img/img-desk/image_1.png');  
+  height: 743px; 
+  background-position: right; 
+  }
+
+.menu-button{    
+  border-radius: 28px 28px;
+  background-image: linear-gradient(to right, #6abaa1 , #208B52);
+  font-family: 'mont-semi', sans-serif;
+  height: 56px;
+  width: 155px;
+  letter-spacing: 4px; 
+  line-height: 2.8em;    
+}
+
+img.img-grid{
+  height: 33px;
+  width: 38px;
+  margin-left: 7px;
+}
+
+.menu-enjoy{
+  padding-top: 200px;
+}
+
+.enjoy{
+  font-family: 'lobster', sans-serif;
+  font-size: 103px; 
+  margin-top: -150px; 
+  padding-right: 15px;
+}
+
+.omomento{
+  margin-top: -42px; 
+  font-family: 'mont-semi', sans-serif;
+  letter-spacing: 5px;
+  font-size: 24px;
+  padding-right: 10px;
+}
+
+
+.conheca-mais-button {
+  letter-spacing: 3px;
+  font-size: 14px;
+  margin-top: 90px;
+  line-height: 2em;
+  width: 198px;
+  height: 43px;
+  border: 2px solid white;
+  border-radius: 21.5px;    
+  font-family: 'pop-bold', sans-serif;   
+}
+
+.roll-page{
+  font-family: 'pop-light', sans-serif;
+  letter-spacing: 4px;
+  font-size: 16px;
+  padding-top: 85px;
+  opacity: 0.5;
+}
+.fa {
+  opacity: 0.5;
+}
+/*----------------ESTILIZANDO O CONTEUDO----------------*/
+
+.img-keys{ 
+  height: 132px; 
+}
+
+.card-img-top{
+  height: 164px;
+  width: 244px;
+  padding-top: 5px;
+}
+
+.nav-card{
+  width: 258px;     
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);   
+}
+.nav-card-title{
+  color: #2F9977;
+  font-size: 16px;  
+  letter-spacing: 3px;
+  line-height: 5px;
+  padding-top: 25px;
+}
+
+.nav-card-text{
+  color: #A8A8A8;
+  font-family: 'mont-med';
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 5px;  
+}
+
+.nav-card-button{
+  font-size: 12px;
+  border-radius: 28px 28px;
+  background-image: linear-gradient( #208B52, #6abaa1, #208B52);
+  opacity: 0.8;
+  font-family: 'pop-bold', sans-serif;  
+  letter-spacing: 4px; 
+  width: 243.99px;    
+  height: 38.77px;
+  line-height: 2em;
+}
+
+.img-leaf{
+  height: 85px;
+}
+
+.leaf-img{
+  margin-right: -70px;
+  margin-bottom: 20px;  
+  width: 317px;
+  height: 330px;
+}
+
+/*----------------SOBRE O TROPICAL----------------*/
+
+.card-img-right {  
+  height: 304px;
+  width: 441px;
+  background: url('../img/img-desk/rectangle-desk-2.png') center no-repeat; 
+  background-size: cover;
+}
+
+#about .card-title{
+  font-family: 'mont-med', sans-serif;
+  color: #19906C;
+  font-size: 20px;
+  letter-spacing: 6px;
+}
+
+#about .card-text{
+  color: #9E9E9E;
+  font-size: 18px;
+}
+
+#about .about-text{
+  width: 460px;
+  height: 175px;  
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-family: 'mont-med', sans-serif;  
+}
+
+#about .btn{
+  border-radius: 21.5px 21.5px;
+  border: 2px solid #64C0B3;
+  color: #64C0B3;
+  font-family: 'pop-bold', sans-serif;
+  font-size: 14px;
+  line-height: 2em;
+  height: 43px;
+  width: 198px;
+  letter-spacing: 2px;
+}
+
+.img-leaf2{
+  height: 85px;
+}
+
+.leaf-img2{
+  margin-left: -120px;
+  margin-top: 110px;  
+  width: 317px;
+  height: 330px;
+}
+
+
+/*----------------DESCONTOS E CORTESIAS----------------*/
+
+.descontos{
+  background-color: #F5F5F5;
+  height: 698px;
+}
+
+.descontos.desc-img{
+  width: 63px;
+  height: 63px; 
+}
+
+.descontos .card{
+  width: 352px;
+}
+.descontos .desc-title{
+  font-family: 'mont-med',sans-serif;
+  font-size: 22px;
+  color: #33B08A;
+  letter-spacing: 3px
+}
+
+.descontos .card-text{
+  font-size: 14px;
+  color: #A8A8A8;
+  font-family: 'mont-med', sans-serif;
+  letter-spacing: 3px;
+  line-height: 1.4em;
+
+}
+
+.descontos .mont-extra-bold{
+  font-family: 'mont-extra',sans-serif;
+}
+
+.descontos .card-title{
+  font-family: 'mont-med', sans-serif;
+  color: #2F9977;
+  font-size: 18px;
+  letter-spacing: 3px;
+
+}
+
+.descontos .card{       
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);   
+}
+
+.descontos .card-body1{
+  width: 254px;
+  height: 244px;
+}
+
+.descontos .card-body2{
+  width: 254px;
+  height: 308px;
+}
+
+.descontos  .print { 
+  background-repeat: no-repeat;
+  font-size: 14px; 
+   
+}
+
+.descontos .retangulo{
+  width: 244px;
+  height: 4px;
+  background-color: #2F9977;   
+}
+
+.descontos .obs{
+  color: #9E9E9E;
+  font-family: 'mont-med', sans-serif;
+  letter-spacing: 1px;
+  padding-top: 40px;
+}
+
+.conheca-mais-button2 {
+  border-radius: 28px 28px;
+  background-image: linear-gradient(to right, #6abaa1 , #208B52);
+  font-family: 'pop-bold', sans-serif;
+  height: 46px;
+  width: 220px;
+  letter-spacing: 4px; 
+  line-height: 2em;  
+  font-size: 16px;
+}
+
+/*----------------FOOTER----------------*/
+
+.container-footer{
+  width: 1088px;
+  height: 288px;
+  margin-top: -340px;
+}
+
+.gradiente-footer{
+  width: 1366px;
+  height: 185px;
+  background-image: linear-gradient(to bottom, #6abaa1 , #208B52);
+  margin-top: 250px; 
+}
+
+.container-footer, 
+.container-footer a{
+  font-family: 'mont-reg', sans-serif;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+footer li{
+  padding-bottom: 1px;
+}
+footer h6{
+  font-family: 'mont-extra', sans-serif;
+}
+
+.guia-footer{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'pop-reg',sans-serif;
+  letter-spacing: 1px;
+}
+
+.f-mobile{
+  background-image: linear-gradient(to top, #1AAB80 , #8FC3B1 );
+  height: 282px;
+  margin-top: 20px;  
+}
+
+footer .btn{
+  border-radius: 21.5px 21.5px;
+  background-color: rgba(0,0,0,0 );
+  border: 2px solid #FFF;
+  color: #64C0B3;
+  font-family: 'pop-bold', sans-serif;
+  font-size: 14px;
+  line-height: 2em;
+  height: 43px;
+  width: 299px;
+  letter-spacing: 2px;
+}
+
+ .guia-footer-mobile{
+  color: #8E8E8E;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+
+/*--------------------------------------*/
+/*----------------MOBILE----------------*/
+/*--------------------------------------*/
+
+/*------HEADER------*/
+
+@media (max-width: 575.98px) { 
+
+  .menu-enjoy{
+    padding-top: 130px;
+  }
+
+  .enjoy{
+    font-family: 'lobster', sans-serif;
+    font-size: 56px;    
+    padding-right: 15px;
+    margin-top: -130px; 
+  }
+
+  .masterhead { 
+    background-image: url('../img/img-mobile/foto-head2.png');     
+    background-color:rgba(0,0,0,0.9);     
+    background-position: right;
+    background-size: cover;      
+    height: 570px;   
+
+  }
+    
+  .omomento{
+    margin-top: -90px; 
+    font-family: 'mont-semi', sans-serif;
+    letter-spacing: 5px;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  
+  .conheca-mais-button {
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 2em;
+    width: 198px;
+    height: 43px;
+    border: 2px solid white;
+    border-radius: 21.5px;    
+    font-family: 'pop-bold', sans-serif;   
+  }
+
+  .roll-page{
+    font-family: 'pop-light', sans-serif;
+    letter-spacing: 4px;
+    font-size: 10.99px;
+    padding-top: 25px;
+    
+  }
+
+  .btn-menu-mobile{
+    font-size: 12px;
+    border-radius: 28px 28px;
+    background-image: linear-gradient(to right, #365750 , #8FC3B1 );
+    font-family: 'pop-bold', sans-serif;           
+    height: 42px;
+    line-height: 2.0em;
+    margin-top: 50px;
+     -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5); 
+  }
+
+  .key-icon{
+    width: 18px;
+    height: 20px;
+  }
+  
+  .text-menu-mobile{
+    font-size: 12px;
+    font-family: 'pop-reg', sans-serif;
+    line-height: 2.5em;
+  }
+
+  .btn-head-mobile{   
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,#396153 ,#153227  );
+    font-family: 'pop-bold', sans-serif;  
+    letter-spacing: 1px; 
+    line-height: 21px;
+    margin-right: 1px;
+ }
+
+
+/*-----------SUÍTES MOBILE-----------*/
+.nav-card{
+  width: 258px;   
+  border-style: outset;
+}
+
+/*-----------ABOUT MOBILE-----------*/
+
+  .img-rectangle{
+    background-image: url('../img/img-desk/rectangle-desk.png');    
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-size: 575px;
+    height: 257px; 
+    margin-top: 80px;       
+    }  
+  .img-predio{
+    margin-top: -50px;
+    padding-bottom: 25px;
+  }
+  .about-mobile-text{
+    font-family: 'mont-med';
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-bottom: -5px;
+  }
+  .img-rectangle .conheca-mais-button-mobile {
+    letter-spacing: 3px;    
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 2em;
+    width: 198px;
+    height: 43px;
+    border: 2px solid white;
+    border-radius: 21.5px;    
+    font-family: 'pop-bold', sans-serif;   
+  }
+
+
+/*DESCONTOS E CORTESIAS*/
+
+.descontos-mobile{
+  background-color: #F5F5F5;  
+}
+
+.descontos-mobile.desc-img{
+  width: 63px;
+  height: 63px; 
+}
+
+.descontos-mobile .card{
+  width: 300px;
+}
+
+.descontos-mobile .desc-title{
+  font-family: 'mont-med',sans-serif;
+  font-size: 16px;
+  color: #33B08A;
+  letter-spacing: 3px
+}
+
+.descontos-mobile .card-text{
+  font-size: 14px;
+  color: #A8A8A8;
+  font-family: 'mont-med', sans-serif;
+  letter-spacing: 3px;
+  line-height: 1.4em;
+
+}
+
+.descontos-mobile .mont-extra-bold{
+  font-family: 'mont-extra',sans-serif;
+}
+
+.descontos-mobile .card-title{
+  font-family: 'mont-med', sans-serif;
+  color: #2F9977;
+  font-size: 18px;
+  letter-spacing: 3px;
+
+}
+
+.descontos-mobile .card{       
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+  border: 0;   
+}
+
+.descontos-mobile .card-body2{
+  width: 254px;
+  height: 308px;
+}
+
+.descontos-mobile  .print { 
+  background-repeat: no-repeat;
+  font-size: 14px;    
+}
+
+.descontos-mobile .retangulo{
+  width: 244px;
+  height: 4px;
+  background-color: #2F9977;  
+}
+
+/*-----------FOOTER MOBILE ---------*/
+
+  .fb-icon-footer{
+    height: 32px;
+    width: 32px;
+  }
+
+  .location-icon{
+    height: 26px;
+    widows: 26px;
+  }
+
+  .call-icon{
+    height: 20px;
+    width: 20px;
+  }
+
+  .envelope-icon{
+    height: 19px;
+    width: 25px;
+  }
+
+  .guia-footer-mobile{
+    color: #8E8E8E;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+}
